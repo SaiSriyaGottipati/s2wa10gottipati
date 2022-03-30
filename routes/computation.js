@@ -18,7 +18,6 @@ router.get('/', function (req, res, next) {
     value1: `Math.imul() applied to ` + x + ` is ${Math.imul(x,x).toFixed(2)}`,
     value2: `Math.log() applied to ` + x + ` is ${Math.log(x)}`,
     value3: `Math.log10() applied to ` + x + ` is ${Math.log10(x).toFixed(2)}`,
-    
   });
 });
 
